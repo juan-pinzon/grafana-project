@@ -18,6 +18,7 @@ Una vez levantadas las máquinas lo primero que debemos hacer crear el clúster 
 ```
 
 ## C) Levantamiento de los servicios
+El servicio principal, el cual vamos a monitorear será Redis (Base de datos NoSQL Clave-Valor)
 ### 1. Creación de la red en Docker
 Es necesario tener una red general para que todos nuestros servicios en contenedores se puedan comunicar entre sí, por lo que crearemos una con el siguiente comando:
 ```bash
